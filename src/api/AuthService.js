@@ -1,5 +1,5 @@
 import axios from "axios";
-export const server_url = "http://64.227.36.152:3636";
+export const server_url = "https://64.227.36.152:3636";
 
 export const login = async (email, password, setIsLoading, setIsAuth) => {
   setIsLoading(true);
