@@ -1,0 +1,160 @@
+.Price {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 215px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  padding: 20px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #535b63;
+  user-select: none;
+}
+.checked {
+  border: 2px solid rgb(32, 103, 255);
+}
+.Price > * {
+  margin-bottom: 8px;
+}
+.horizontalthree {
+  display: flex;
+  align-items: center;
+}
+.horizontalthree > * {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+}
+.horizontalthree div:nth-child(1) {
+  justify-content: flex-start;
+}
+.horizontalthree div:nth-child(2) {
+  justify-content: center;
+}
+.horizontalthree div:nth-child(3) {
+  justify-content: flex-end;
+}
+.horizontaltwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hint {
+  color: rgb(165, 165, 165);
+  font-weight: 400;
+}
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index > * {
+  margin-right: 4px;
+  font-weight: 400;
+}
+.sku {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.sku a {
+  color: var(--tg-theme-link-color);
+  text-decoration: none;
+  margin-right: 10px;
+}
+.model {
+  width: 100%;
+  text-align: center;
+  min-height: 30px;
+  height: 30px;
+  max-height: 30px;
+  font-size: 13px;
+  overflow: hidden;
+}
+.category {
+  width: 100%;
+  text-align: center;
+  font-size: 8px;
+}
+.cost {
+  display: flex;
+  flex-direction: column;
+}
+.cost > * {
+  text-align: center;
+  font-size: 10px;
+}
+.pp {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+}
+.pp > * {
+  margin-right: 5px;
+}
+.ppgreen {
+  color: #46d614;
+}
+.ppred {
+  color: #ff5c5c;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.buttons > * {
+  margin-left: 10px;
+}
+.Button {
+  width: 30px;
+  border-radius: 10px;
+  display: flex;
+  padding: 3px 0;
+  align-items: center;
+  justify-content: center;
+}
+.copy {
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 14px;
+  height: 18px;
+  border: 2px solid var(--tg-theme-text-color);
+  margin-left: -5px;
+  margin-top: -4px;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.copy::after,
+.copy::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+.copy::before {
+  background: linear-gradient(to left, currentColor 5px, transparent 0)
+      no-repeat right top/5px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat left
+      bottom/ 2px 5px;
+  box-shadow: inset -4px -4px 0 -2px;
+  bottom: -6px;
+  right: -6px;
+  width: 14px;
+  height: 18px;
+}
+.copy::after {
+  width: 6px;
+  height: 2px;
+  background: currentColor;
+  left: 2px;
+  top: 2px;
+  box-shadow: 0 4px 0, 0 8px 0;
+}

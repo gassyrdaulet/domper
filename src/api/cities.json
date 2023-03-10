@@ -1,0 +1,3632 @@
+{
+  "data": [
+    {
+      "type": "cities",
+      "id": "NDcxMDEwMDAw",
+      "attributes": {
+        "code": "471010000",
+        "name": "Актау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDcxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTUxMDEwMDAw",
+      "attributes": {
+        "code": "151010000",
+        "name": "Актобе",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTUxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NzUwMDAwMDAw",
+      "attributes": {
+        "code": "750000000",
+        "name": "Алматы",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NzUwMDAwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NzEwMDAwMDAw",
+      "attributes": {
+        "code": "710000000",
+        "name": "Астана",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NzEwMDAwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjMxMDEwMDAw",
+      "attributes": {
+        "code": "231010000",
+        "name": "Атырау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjMxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUxODEwMDAw",
+      "attributes": {
+        "code": "351810000",
+        "name": "Жезказган",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUxODEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUxMDEwMDAw",
+      "attributes": {
+        "code": "351010000",
+        "name": "Караганда",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk1MjIwMTAw",
+      "attributes": {
+        "code": "195220100",
+        "name": "Каскелен",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk1MjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTExMDEwMDAw",
+      "attributes": {
+        "code": "111010000",
+        "name": "Кокшетау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTExMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzE0ODUxMjA1",
+      "attributes": {
+        "code": "314851205",
+        "name": "Кордай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzE0ODUxMjA1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzkxMDEwMDAw",
+      "attributes": {
+        "code": "391010000",
+        "name": "Костанай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzkxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjMzNjIwMTAw",
+      "attributes": {
+        "code": "233620100",
+        "name": "Кульсары",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjMzNjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDMxMDEwMDAw",
+      "attributes": {
+        "code": "431010000",
+        "name": "Кызылорда",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDMxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTUxMDEwMDAw",
+      "attributes": {
+        "code": "551010000",
+        "name": "Павлодар",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTUxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTkxMDEwMDAw",
+      "attributes": {
+        "code": "591010000",
+        "name": "Петропавловск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTkxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzkyNDEwMDAw",
+      "attributes": {
+        "code": "392410000",
+        "name": "Рудный",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzkyNDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUyMzEwMDAw",
+      "attributes": {
+        "code": "352310000",
+        "name": "Сатпаев",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUyMzEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjMyODEwMDAw",
+      "attributes": {
+        "code": "632810000",
+        "name": "Семей",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjMyODEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2MjIwMTAw",
+      "attributes": {
+        "code": "196220100",
+        "name": "Талгар",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2MjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTkxMDEwMDAw",
+      "attributes": {
+        "code": "191010000",
+        "name": "Талдыкорган",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTkxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzExMDEwMDAw",
+      "attributes": {
+        "code": "311010000",
+        "name": "Тараз",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzExMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUyNDEwMDAw",
+      "attributes": {
+        "code": "352410000",
+        "name": "Темиртау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUyNDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDEz",
+      "attributes": {
+        "code": "000000013",
+        "name": "Краснодар",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDEz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjMxMDEwMDAw",
+      "attributes": {
+        "code": "631010000",
+        "name": "Усть-Каменогорск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjMxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTExMDEwMDAw",
+      "attributes": {
+        "code": "511010000",
+        "name": "Шымкент",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTExMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTUyMjEwMDAw",
+      "attributes": {
+        "code": "552210000",
+        "name": "Экибастуз",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTUyMjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQ2",
+      "attributes": {
+        "code": "000000046",
+        "name": "Щелково",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQ2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDU2",
+      "attributes": {
+        "code": "000000056",
+        "name": "Ижевск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDU2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjczNjIwMTAw",
+      "attributes": {
+        "code": "273620100",
+        "name": "Аксай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjczNjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTE1NDIwMTAw",
+      "attributes": {
+        "code": "515420100",
+        "name": "Сарыагаш",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTE1NDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE3MDU1OTAw",
+      "attributes": {
+        "code": "117055900",
+        "name": "Шиели",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE3MDU1OTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTkyNjEwMDAw",
+      "attributes": {
+        "code": "192610000",
+        "name": "Текели",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTkyNjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDUy",
+      "attributes": {
+        "code": "000000052",
+        "name": "Бишкек",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDUy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDYw",
+      "attributes": {
+        "code": "000000060",
+        "name": "Челябинск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDYw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDY2",
+      "attributes": {
+        "code": "000000066",
+        "name": "Пермь",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDY2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTI1",
+      "attributes": {
+        "code": "000000125",
+        "name": "Пятигорск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTI1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTE1ODIwMTAw",
+      "attributes": {
+        "code": "515820100",
+        "name": "Ленгер",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTE1ODIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQ0",
+      "attributes": {
+        "code": "000000144",
+        "name": "Псков",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQ0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDMzMjU5NzAw",
+      "attributes": {
+        "code": "433259700",
+        "name": "Тасбогет",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDMzMjU5NzAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2MjQzMTAw",
+      "attributes": {
+        "code": "196243100",
+        "name": "Бесагаш",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2MjQzMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTUxMDQxMTAw",
+      "attributes": {
+        "code": "551041100",
+        "name": "Павлодарское",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTUxMDQxMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2ODU1MTAw",
+      "attributes": {
+        "code": "196855100",
+        "name": "Чапаево",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2ODU1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUyODEwMDAw",
+      "attributes": {
+        "code": "352810000",
+        "name": "Шахтинск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUyODEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDE0",
+      "attributes": {
+        "code": "000000014",
+        "name": "Красноярск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDE0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDE4",
+      "attributes": {
+        "code": "000000018",
+        "name": "Оренбург",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDE4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDUx",
+      "attributes": {
+        "code": "000000051",
+        "name": "ДНТ Рузаево",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDUx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjM0ODIxMTAw",
+      "attributes": {
+        "code": "634821100",
+        "name": "Серебрянск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjM0ODIxMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTkxNjEwMDAw",
+      "attributes": {
+        "code": "191610000",
+        "name": "Капшагай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTkxNjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjEyMDEwMDAw",
+      "attributes": {
+        "code": "612010000",
+        "name": "Кентау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjEyMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjMzNDIwMTAw",
+      "attributes": {
+        "code": "633420100",
+        "name": "Аягоз",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjMzNDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzU0MDMwMTAw",
+      "attributes": {
+        "code": "354030100",
+        "name": "Ботакара",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzU0MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQ1",
+      "attributes": {
+        "code": "000000045",
+        "name": "Старая Купавна",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQ1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQy",
+      "attributes": {
+        "code": "000000042",
+        "name": "Подольск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDUz",
+      "attributes": {
+        "code": "000000053",
+        "name": "Балашиха",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDUz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDg4",
+      "attributes": {
+        "code": "000000088",
+        "name": "Чебоксары",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDg4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDk1",
+      "attributes": {
+        "code": "000000095",
+        "name": "Коломна",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDk1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTIy",
+      "attributes": {
+        "code": "000000122",
+        "name": "Приволжск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTIy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTI3",
+      "attributes": {
+        "code": "000000127",
+        "name": "Красная Пахра",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTI3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTM4",
+      "attributes": {
+        "code": "000000138",
+        "name": "Грибки",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTM4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQ1",
+      "attributes": {
+        "code": "000000145",
+        "name": "Владимир",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQ1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjMxMDM1MzAw",
+      "attributes": {
+        "code": "231035300",
+        "name": "Курмангазы",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjMxMDM1MzAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2ODMzMTAw",
+      "attributes": {
+        "code": "196833100",
+        "name": "Мухаметжан Туймебаева",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2ODMzMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTEyNjEwMDAw",
+      "attributes": {
+        "code": "512610000",
+        "name": "Туркестан",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTEyNjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk1NjIwMTAw",
+      "attributes": {
+        "code": "195620100",
+        "name": "Жаркент",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk1NjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQx",
+      "attributes": {
+        "code": "000000041",
+        "name": "Мытищи",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjM0ODIwMTAw",
+      "attributes": {
+        "code": "634820100",
+        "name": "Алтай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjM0ODIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTExNjEwMDAw",
+      "attributes": {
+        "code": "511610000",
+        "name": "Арысь",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTExNjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTU2NDIwMTAw",
+      "attributes": {
+        "code": "156420100",
+        "name": "Риддер",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTU2NDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUyMjEwMDAw",
+      "attributes": {
+        "code": "352210000",
+        "name": "Сарань",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUyMjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDc1MjIwMTAw",
+      "attributes": {
+        "code": "475220100",
+        "name": "Форт-Шевченко",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDc1MjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzU0ODIwMTAw",
+      "attributes": {
+        "code": "354820100",
+        "name": "Каркаралинск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzU0ODIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDI3",
+      "attributes": {
+        "code": "000000027",
+        "name": "Волгоград",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDI3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDE3",
+      "attributes": {
+        "code": "000000017",
+        "name": "Киров",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDE3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDM2",
+      "attributes": {
+        "code": "000000036",
+        "name": "Зеленоград",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDM2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDU3",
+      "attributes": {
+        "code": "000000057",
+        "name": "Липецк",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDU3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDYx",
+      "attributes": {
+        "code": "000000061",
+        "name": "Троицк",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDYx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDcw",
+      "attributes": {
+        "code": "000000070",
+        "name": "Кострома",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDcw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDc3",
+      "attributes": {
+        "code": "000000077",
+        "name": "Омск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDc3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDg0",
+      "attributes": {
+        "code": "000000084",
+        "name": "Магнитогорск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDg0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDg3",
+      "attributes": {
+        "code": "000000087",
+        "name": "Тверь",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDg3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDkw",
+      "attributes": {
+        "code": "000000090",
+        "name": "Красноармейск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDkw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDk0",
+      "attributes": {
+        "code": "000000094",
+        "name": "Егорьевск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDk0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTI4",
+      "attributes": {
+        "code": "000000128",
+        "name": "Сосенское",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTI4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDM0NDMwMTAw",
+      "attributes": {
+        "code": "434430100",
+        "name": "Айтеке-Би",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDM0NDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQw",
+      "attributes": {
+        "code": "000000140",
+        "name": "Протвино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQx",
+      "attributes": {
+        "code": "000000141",
+        "name": "Крекшино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzEzNjMwMTAw",
+      "attributes": {
+        "code": "313630100",
+        "name": "Сарыкемер",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzEzNjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTk1MjIwMTAw",
+      "attributes": {
+        "code": "595220100",
+        "name": "Мамлютка",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTk1MjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDc0MjMwMTAw",
+      "attributes": {
+        "code": "474230100",
+        "name": "Курык",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDc0MjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDc0NjMwMTAw",
+      "attributes": {
+        "code": "474630100",
+        "name": "Шетпе",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDc0NjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDM4",
+      "attributes": {
+        "code": "000000038",
+        "name": "Лобня",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDM4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTE0NDIwMTAw",
+      "attributes": {
+        "code": "514420100",
+        "name": "Жетысай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTE0NDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDAx",
+      "attributes": {
+        "code": "000000001",
+        "name": "Москва",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDAx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjcxMDM1MTAw",
+      "attributes": {
+        "code": "271035100",
+        "name": "Зачаганск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjcxMDM1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDE5",
+      "attributes": {
+        "code": "000000019",
+        "name": "Кемерово",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDE5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDIw",
+      "attributes": {
+        "code": "000000020",
+        "name": "Иваново",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDIw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQz",
+      "attributes": {
+        "code": "000000043",
+        "name": "Реутов",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDc2",
+      "attributes": {
+        "code": "000000076",
+        "name": "Чехов",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDc2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDk5",
+      "attributes": {
+        "code": "000000099",
+        "name": "Зарайск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDk5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTE2",
+      "attributes": {
+        "code": "000000116",
+        "name": "Краснознаменск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTE2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTE0",
+      "attributes": {
+        "code": "000000114",
+        "name": "Серебряные Пруды",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTE0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTIz",
+      "attributes": {
+        "code": "000000123",
+        "name": "Абакан",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTIz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTMy",
+      "attributes": {
+        "code": "000000132",
+        "name": "Лосино-Петровский",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTMy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTM1",
+      "attributes": {
+        "code": "000000135",
+        "name": "Калининград",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTM1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk0MDgzMTAw",
+      "attributes": {
+        "code": "194083100",
+        "name": "Шелек",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk0MDgzMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUyMTEwMDAw",
+      "attributes": {
+        "code": "352110000",
+        "name": "Приозeрск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUyMTEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2MjUzMTAw",
+      "attributes": {
+        "code": "196253100",
+        "name": "Панфилово",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2MjUzMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTU0MjMwMTAw",
+      "attributes": {
+        "code": "554230100",
+        "name": "Железинка",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTU0MjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTEzMjIwMTAw",
+      "attributes": {
+        "code": "113220100",
+        "name": "Акколь",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTEzMjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUyMDM1MTAw",
+      "attributes": {
+        "code": "352035100",
+        "name": "Жайрем",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUyMDM1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQ4",
+      "attributes": {
+        "code": "000000048",
+        "name": "Видное",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQ4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTA0",
+      "attributes": {
+        "code": "000000104",
+        "name": "Ивантеевка",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTA0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTU0ODIwMTAw",
+      "attributes": {
+        "code": "154820100",
+        "name": "Кандыагаш",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTU0ODIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzE2NjIxMTAw",
+      "attributes": {
+        "code": "316621100",
+        "name": "Шу",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzE2NjIxMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDA3",
+      "attributes": {
+        "code": "000000007",
+        "name": "Гонконг",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDA3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE0ODIwMTAw",
+      "attributes": {
+        "code": "114820100",
+        "name": "Есиль",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE0ODIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDYz",
+      "attributes": {
+        "code": "000000063",
+        "name": "Ступино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDYz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDk3",
+      "attributes": {
+        "code": "000000097",
+        "name": "Луховицы",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDk3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTI0",
+      "attributes": {
+        "code": "000000124",
+        "name": "Котельники",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTI0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTI2",
+      "attributes": {
+        "code": "000000126",
+        "name": "Знаменское",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTI2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTMz",
+      "attributes": {
+        "code": "000000133",
+        "name": "Батайск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTMz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk0MjMwMTAw",
+      "attributes": {
+        "code": "194230100",
+        "name": "Узынагаш",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk0MjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQy",
+      "attributes": {
+        "code": "000000142",
+        "name": "Томилино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQ3",
+      "attributes": {
+        "code": "000000147",
+        "name": "Сызрань",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQ3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTU1NjMwMDAw",
+      "attributes": {
+        "code": "155630000",
+        "name": "Шубаркудук",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTU1NjMwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTE2MDMwMTAw",
+      "attributes": {
+        "code": "516030100",
+        "name": "Турар Рыскулов",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTE2MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE2NjQ4MTAw",
+      "attributes": {
+        "code": "116648100",
+        "name": "Караоткель",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE2NjQ4MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE0MDIwMTAw",
+      "attributes": {
+        "code": "114020100",
+        "name": "Макинск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE0MDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDM5",
+      "attributes": {
+        "code": "000000039",
+        "name": "Лыткарино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDM5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDU5",
+      "attributes": {
+        "code": "000000059",
+        "name": "Фрязино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDU5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzE2MDIwMTAw",
+      "attributes": {
+        "code": "316020100",
+        "name": "Жанатас",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzE2MDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk0MDIwMTAw",
+      "attributes": {
+        "code": "194020100",
+        "name": "Есик",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk0MDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTExODEwMDAw",
+      "attributes": {
+        "code": "111810000",
+        "name": "Степногорск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTExODEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE0NjIwMTAw",
+      "attributes": {
+        "code": "114620100",
+        "name": "Ерейментау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE0NjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjM2ODIwMTAw",
+      "attributes": {
+        "code": "636820100",
+        "name": "Шемонаиха",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjM2ODIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDMx",
+      "attributes": {
+        "code": "000000031",
+        "name": "Самара",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDMx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDU0",
+      "attributes": {
+        "code": "000000054",
+        "name": "Белгород",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDU0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDcx",
+      "attributes": {
+        "code": "000000071",
+        "name": "Нижний Тагил",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDcx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDk4",
+      "attributes": {
+        "code": "000000098",
+        "name": "Озёры",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDk4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTM0",
+      "attributes": {
+        "code": "000000134",
+        "name": "Великий Новгород",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTM0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTE1MjMwMTAw",
+      "attributes": {
+        "code": "515230100",
+        "name": "Аксукент",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTE1MjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk1MjUzMTAw",
+      "attributes": {
+        "code": "195253100",
+        "name": "Райымбек",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk1MjUzMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk1MjQ3MTAw",
+      "attributes": {
+        "code": "195247100",
+        "name": "Иргели",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk1MjQ3MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "Mzk0NDIwMTAw",
+      "attributes": {
+        "code": "394420100",
+        "name": "Житикара",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/Mzk0NDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzkxNjEwMDAw",
+      "attributes": {
+        "code": "391610000",
+        "name": "Аркалык",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzkxNjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDEy",
+      "attributes": {
+        "code": "000000012",
+        "name": "Уфа",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDEy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDI5",
+      "attributes": {
+        "code": "000000029",
+        "name": "Ессентуки",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDI5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUzMjg1MTAw",
+      "attributes": {
+        "code": "353285100",
+        "name": "Топар",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUzMjg1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzE2MjIwMTAw",
+      "attributes": {
+        "code": "316220100",
+        "name": "Каратау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzE2MjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjM0NjIwMTAw",
+      "attributes": {
+        "code": "634620100",
+        "name": "Зайсан",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjM0NjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTU2MDIwMTAw",
+      "attributes": {
+        "code": "156020100",
+        "name": "Хромтау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTU2MDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTUzMjIwMTAw",
+      "attributes": {
+        "code": "153220100",
+        "name": "Алга",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTUzMjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUzMjIwMTAw",
+      "attributes": {
+        "code": "353220100",
+        "name": "Абай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUzMjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDIx",
+      "attributes": {
+        "code": "000000021",
+        "name": "Брянск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDIx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDI0",
+      "attributes": {
+        "code": "000000024",
+        "name": "Барнаул",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDI0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDMw",
+      "attributes": {
+        "code": "000000030",
+        "name": "Воронеж",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDMw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDIy",
+      "attributes": {
+        "code": "000000022",
+        "name": "Ставрополь",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDIy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDMy",
+      "attributes": {
+        "code": "000000032",
+        "name": "Ярославль",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDMy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDM1",
+      "attributes": {
+        "code": "000000035",
+        "name": "Жуковский",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDM1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDM0",
+      "attributes": {
+        "code": "000000034",
+        "name": "Домодедово",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDM0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDYy",
+      "attributes": {
+        "code": "000000062",
+        "name": "Королев",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDYy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDY3",
+      "attributes": {
+        "code": "000000067",
+        "name": "Одинцово",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDY3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDc1",
+      "attributes": {
+        "code": "000000075",
+        "name": "Клин",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDc1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDc5",
+      "attributes": {
+        "code": "000000079",
+        "name": "Смоленск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDc5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDg5",
+      "attributes": {
+        "code": "000000089",
+        "name": "Тамбов",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDg5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTAy",
+      "attributes": {
+        "code": "000000102",
+        "name": "Рошаль",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTAy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTA3",
+      "attributes": {
+        "code": "000000107",
+        "name": "Дубна",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTA3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTA4",
+      "attributes": {
+        "code": "000000108",
+        "name": "Талдом",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTA4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTE4",
+      "attributes": {
+        "code": "000000118",
+        "name": "Железнодорожный",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTE4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTI5",
+      "attributes": {
+        "code": "000000129",
+        "name": "Вологда",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTI5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTM2",
+      "attributes": {
+        "code": "000000136",
+        "name": "Зеленогорск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTM2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDM0MDMwMTAw",
+      "attributes": {
+        "code": "434030100",
+        "name": "Жанакорган",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDM0MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUzNjQxMzAw",
+      "attributes": {
+        "code": "353641300",
+        "name": "Ушарал",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUzNjQxMzAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzE1MDMwMTAw",
+      "attributes": {
+        "code": "315030100",
+        "name": "Кулан",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzE1MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTUxMDQ1MTAw",
+      "attributes": {
+        "code": "551045100",
+        "name": "Ленинский",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTUxMDQ1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDcxODEwMDAw",
+      "attributes": {
+        "code": "471810000",
+        "name": "Жанаозен",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDcxODEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTUxNjEwMDAw",
+      "attributes": {
+        "code": "551610000",
+        "name": "Аксу",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTUxNjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDE1",
+      "attributes": {
+        "code": "000000015",
+        "name": "Иу",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDE1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDM3",
+      "attributes": {
+        "code": "000000037",
+        "name": "Красногорск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDM3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDY1",
+      "attributes": {
+        "code": "000000065",
+        "name": "Курск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDY1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDcz",
+      "attributes": {
+        "code": "000000073",
+        "name": "Долгопрудный",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDcz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDc0",
+      "attributes": {
+        "code": "000000074",
+        "name": "Бийск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDc0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDkx",
+      "attributes": {
+        "code": "000000091",
+        "name": "Орехово-Зуево",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDkx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDk2",
+      "attributes": {
+        "code": "000000096",
+        "name": "Елино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDk2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzE1NDMwMTAw",
+      "attributes": {
+        "code": "315430100",
+        "name": "Мерке",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzE1NDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTM3",
+      "attributes": {
+        "code": "000000137",
+        "name": "Майкоп",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTM3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQ2",
+      "attributes": {
+        "code": "000000146",
+        "name": "Анапа",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQ2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "Mzk1MDMwMTAw",
+      "attributes": {
+        "code": "395030100",
+        "name": "Карабалык",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/Mzk1MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDMzNjMwMTAw",
+      "attributes": {
+        "code": "433630100",
+        "name": "Жалагаш",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDMzNjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUyODM1MTAw",
+      "attributes": {
+        "code": "352835100",
+        "name": "Шахан",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUyODM1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDA2",
+      "attributes": {
+        "code": "000000006",
+        "name": "Шэньчжэнь",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDA2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjM0MDMwMTAw",
+      "attributes": {
+        "code": "634030100",
+        "name": "Глубокое",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjM0MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzU1NjMwMTAw",
+      "attributes": {
+        "code": "355630100",
+        "name": "Осакаровка",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzU1NjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDE2",
+      "attributes": {
+        "code": "000000016",
+        "name": "Шанхай",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDE2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQ3",
+      "attributes": {
+        "code": "000000047",
+        "name": "Химки",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQ3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDU4",
+      "attributes": {
+        "code": "000000058",
+        "name": "Пенза",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDU4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDg1",
+      "attributes": {
+        "code": "000000085",
+        "name": "Набережные Челны",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDg1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTEw",
+      "attributes": {
+        "code": "000000110",
+        "name": "Востряково",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTEw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTIw",
+      "attributes": {
+        "code": "000000120",
+        "name": "Обнинск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTIw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTMx",
+      "attributes": {
+        "code": "000000131",
+        "name": "Щербинка",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTMx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk1MDIwMTAw",
+      "attributes": {
+        "code": "195020100",
+        "name": "Уштобе",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk1MDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzE2NjMwMTAw",
+      "attributes": {
+        "code": "316630100",
+        "name": "Толе би",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzE2NjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjcxMDAwMjAw",
+      "attributes": {
+        "code": "271000200",
+        "name": "Деркуль",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjcxMDAwMjAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk1MjQ3NDAw",
+      "attributes": {
+        "code": "195247400",
+        "name": "Коксай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk1MjQ3NDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzUxNjEwMDAw",
+      "attributes": {
+        "code": "351610000",
+        "name": "Балхаш",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzUxNjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDMxOTEwMDAw",
+      "attributes": {
+        "code": "431910000",
+        "name": "Байконыр",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDMxOTEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDAz",
+      "attributes": {
+        "code": "000000003",
+        "name": "Новосибирск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDAz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDA4",
+      "attributes": {
+        "code": "000000008",
+        "name": "Санкт-Петербург",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDA4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTEzODIwMTAw",
+      "attributes": {
+        "code": "113820100",
+        "name": "Атбасар",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTEzODIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjMyMjEwMDAw",
+      "attributes": {
+        "code": "632210000",
+        "name": "Курчатов",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjMyMjEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzU0NDMwMTAw",
+      "attributes": {
+        "code": "354430100",
+        "name": "Жанаарка",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzU0NDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDA5",
+      "attributes": {
+        "code": "000000009",
+        "name": "Дунгуань",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDA5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDUw",
+      "attributes": {
+        "code": "000000050",
+        "name": "Южное Бутово",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDUw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQw",
+      "attributes": {
+        "code": "000000040",
+        "name": "Люберцы",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDgw",
+      "attributes": {
+        "code": "000000080",
+        "name": "Тольятти",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDgw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTEx",
+      "attributes": {
+        "code": "000000111",
+        "name": "Кашира",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTEx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTIx",
+      "attributes": {
+        "code": "000000121",
+        "name": "Березовский",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTIx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTMw",
+      "attributes": {
+        "code": "000000130",
+        "name": "Апрелевка",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTMw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2NjMwMTAw",
+      "attributes": {
+        "code": "196630100",
+        "name": "Чунджа",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2NjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTM5",
+      "attributes": {
+        "code": "000000139",
+        "name": "Сходня",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTM5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjM0NjQzMzAw",
+      "attributes": {
+        "code": "634643300",
+        "name": "Шалкар",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjM0NjQzMzAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk0MDQzMTAw",
+      "attributes": {
+        "code": "194043100",
+        "name": "Байдибек бия",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk0MDQzMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjM1MjMwMTAw",
+      "attributes": {
+        "code": "235230100",
+        "name": "Макат",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjM1MjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTk1MDMwMTAw",
+      "attributes": {
+        "code": "595030100",
+        "name": "Бесколь",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTk1MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE3MDIwMTAw",
+      "attributes": {
+        "code": "117020100",
+        "name": "Щучинск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE3MDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjE2NDIwMTAw",
+      "attributes": {
+        "code": "616420100",
+        "name": "Шардара",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjE2NDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDA0",
+      "attributes": {
+        "code": "000000004",
+        "name": "Нижний Новгород",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDA0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjcxMDEwMDAw",
+      "attributes": {
+        "code": "271010000",
+        "name": "Уральск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjcxMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTk2MDIwMTAw",
+      "attributes": {
+        "code": "596020100",
+        "name": "Тайынша",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTk2MDIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDEx",
+      "attributes": {
+        "code": "000000011",
+        "name": "Екатеринбург",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDEx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDIz",
+      "attributes": {
+        "code": "000000023",
+        "name": "Кимры",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDIz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQ0",
+      "attributes": {
+        "code": "000000044",
+        "name": "Сергиев Посад",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQ0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDY0",
+      "attributes": {
+        "code": "000000064",
+        "name": "Томск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDY0"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDY5",
+      "attributes": {
+        "code": "000000069",
+        "name": "Сочи",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDY5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTAz",
+      "attributes": {
+        "code": "000000103",
+        "name": "Пушкино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTAz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTA2",
+      "attributes": {
+        "code": "000000106",
+        "name": "Дмитров",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTA2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTQz",
+      "attributes": {
+        "code": "000000143",
+        "name": "Останкино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTQz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MjM0MDMwMTAw",
+      "attributes": {
+        "code": "234030100",
+        "name": "Индербор",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MjM0MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDc1MDMwMTAw",
+      "attributes": {
+        "code": "475030100",
+        "name": "Мангистау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDc1MDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2MjQ1MTAw",
+      "attributes": {
+        "code": "196245100",
+        "name": "Туздыбастау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2MjQ1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NjMzODUxMTAw",
+      "attributes": {
+        "code": "633851100",
+        "name": "Красный Яр",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NjMzODUxMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzkyMDEwMDAw",
+      "attributes": {
+        "code": "392010000",
+        "name": "Лисаковск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzkyMDEwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDAy",
+      "attributes": {
+        "code": "000000002",
+        "name": "Саратов",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDAy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE2NjUxMTAw",
+      "attributes": {
+        "code": "116651100",
+        "name": "Косшы",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE2NjUxMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDI2",
+      "attributes": {
+        "code": "000000026",
+        "name": "Ростов-на-Дону",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDI2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDI1",
+      "attributes": {
+        "code": "000000025",
+        "name": "Ульяновск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDI1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDQ5",
+      "attributes": {
+        "code": "000000049",
+        "name": "Первомайское",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDQ5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDU1",
+      "attributes": {
+        "code": "000000055",
+        "name": "Дзержинский",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDU1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDgy",
+      "attributes": {
+        "code": "000000082",
+        "name": "Тюмень",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDgy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDcy",
+      "attributes": {
+        "code": "000000072",
+        "name": "Воскресенск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDcy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDgx",
+      "attributes": {
+        "code": "000000081",
+        "name": "Рязань",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDgx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDgz",
+      "attributes": {
+        "code": "000000083",
+        "name": "Астрахань",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDgz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDky",
+      "attributes": {
+        "code": "000000092",
+        "name": "Ногинск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDky"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTAx",
+      "attributes": {
+        "code": "000000101",
+        "name": "Шатура",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTAx"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTE1",
+      "attributes": {
+        "code": "000000115",
+        "name": "Нахабино",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTE1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTE1NjMwMTAw",
+      "attributes": {
+        "code": "515630100",
+        "name": "Шалаккорган",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTE1NjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDM0NjMwMTAw",
+      "attributes": {
+        "code": "434630100",
+        "name": "Жосалы",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDM0NjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NTUxMDQzMTAw",
+      "attributes": {
+        "code": "551043100",
+        "name": "Кенжеколь",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NTUxMDQzMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk1MjUzMjAw",
+      "attributes": {
+        "code": "195253200",
+        "name": "Абай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk1MjUzMjAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDMzMjIwMTAw",
+      "attributes": {
+        "code": "433220100",
+        "name": "Аральск",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDMzMjIwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDczNjMwMTAw",
+      "attributes": {
+        "code": "473630100",
+        "name": "Бейнеу",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDczNjMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDA1",
+      "attributes": {
+        "code": "000000005",
+        "name": "Гуанчжоу",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDA1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "Mzk1NDMwMTAw",
+      "attributes": {
+        "code": "395430100",
+        "name": "Тобыл",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/Mzk1NDMwMTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "NDc0MjM5MTAw",
+      "attributes": {
+        "code": "474239100",
+        "name": "Жетыбай",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/NDc0MjM5MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDEw",
+      "attributes": {
+        "code": "000000010",
+        "name": "Волгодонск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDEw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDI4",
+      "attributes": {
+        "code": "000000028",
+        "name": "Ковров",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDI4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDMz",
+      "attributes": {
+        "code": "000000033",
+        "name": "Казань",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDMz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDY4",
+      "attributes": {
+        "code": "000000068",
+        "name": "Тула",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDY4"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDg2",
+      "attributes": {
+        "code": "000000086",
+        "name": "Новокузнецк",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDg2"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTEz",
+      "attributes": {
+        "code": "000000113",
+        "name": "Наро-Фоминск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTEz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTA1",
+      "attributes": {
+        "code": "000000105",
+        "name": "Солнечногорск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTA1"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTEy",
+      "attributes": {
+        "code": "000000112",
+        "name": "Можайск",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTEy"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTA5",
+      "attributes": {
+        "code": "000000109",
+        "name": "Павловский Посад",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTA5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMDkz",
+      "attributes": {
+        "code": "000000093",
+        "name": "Раменское",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMDkz"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTE5",
+      "attributes": {
+        "code": "000000119",
+        "name": "Электросталь",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTE5"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MDAwMDAwMTE3",
+      "attributes": {
+        "code": "000000117",
+        "name": "Шаховская",
+        "active": false
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MDAwMDAwMTE3"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MzkyNDM1MTAw",
+      "attributes": {
+        "code": "392435100",
+        "name": "Качар",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MzkyNDM1MTAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTE0NjAwMDAw",
+      "attributes": {
+        "code": "114600000",
+        "name": "Ерейментау",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTE0NjAwMDAw"
+      }
+    },
+    {
+      "type": "cities",
+      "id": "MTk2ODMwMTAw",
+      "attributes": {
+        "code": "196830100",
+        "name": "Отеген батыр",
+        "active": true
+      },
+      "relationships": {},
+      "links": {
+        "self": "https://kaspi.kz/shop/api/v2/cities/MTk2ODMwMTAw"
+      }
+    }
+  ],
+  "included": []
+}
