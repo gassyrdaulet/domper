@@ -1,6 +1,8 @@
 import axios from "axios";
 export const server_url = "https://domper.kz:3636";
 
+// ("scp -r ./build/* /var/www/domper.kz/html");
+
 export const login = async (email, password, setIsLoading, setIsAuth) => {
   setIsLoading(true);
   axios

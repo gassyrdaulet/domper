@@ -62,7 +62,7 @@ export default function Price({
             alert("Успешно скопировано!");
           }}
           text={
-            kaspiShopUrl + data.suk + "/?m=" + localStorage.getItem("store_Id")
+            kaspiShopUrl + data.suk + "/?m=" + localStorage.getItem("store_id")
           }
         >
           <BsFiles style={{ cursor: "pointer" }} size={18} />
