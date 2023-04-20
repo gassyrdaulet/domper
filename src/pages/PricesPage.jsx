@@ -15,6 +15,14 @@ import {
   getAllPrices,
 } from "../api/PriceService";
 import EditPage from "./EditPage";
+import {
+  BsFillCaretLeftSquareFill,
+  BsFillCaretRightSquareFill,
+} from "react-icons/bs";
+import { AiOutlineSync } from "react-icons/ai";
+import MyModal from "../components/MyModal";
+import Synchronizator from "../components/Synchronizator";
+import useAuth from "../hooks/useAuth";
 
 function PricesPage() {
   const [isLoading, setIsLoading] = useState(false);
@@ -27,6 +35,11 @@ function PricesPage() {
   const [data, setData] = useState([]);
   const [editableId, setEditableId] = useState();
   const [mobileEditVisible, setMobileEditVisible] = useState(false);
+  const [itemsPerPage, setItemsPerPage] = useState(12);
+  const [actualPage, setActualPage] = useState(1);
+  const [pageCount, setPageCount] = useState(0);
+  const [modalVisible, setModalVisible] = useState(false);
+  const { setIsAuth } = useAuth();
 
   const [firstSortSelectValue, setFirstSortSelectValue] = useState({
     value: "brand",
@@ -112,7 +125,7 @@ function PricesPage() {
     }),
     menuList: (provided) => ({
       ...provided,
-      zIndex: 1000,
+      zIndex: 9,
     }),
     control: () => ({
       display: "flex",
@@ -240,8 +253,29 @@ function PricesPage() {
     }
   }, [searchInput, sortedPrices]);
 
+  const paginatedPrices = useMemo(() => {
+    try {
+      setPageCount(Math.ceil(filteredPrices.length / itemsPerPage));
+      const temp = filteredPrices.slice(
+        (actualPage - 1) * itemsPerPage,
+        (actualPage - 1) * itemsPerPage + itemsPerPage
+      );
+      return temp;
+    } catch (e) {
+      console.log(e);
+
+      return [];
+    }
+  }, [filteredPrices, itemsPerPage, actualPage]);
+
+  const changePage = (newPageNumber) => {
+    if (newPageNumber >= 1 && newPageNumber <= pageCount) {
+      setActualPage(newPageNumber);
+    }
+  };
+
   useEffect(() => {
-    getAllPrices(setIsLoading, setData);
+    getAllPrices(setIsLoading, setData, setIsAuth);
   }, []);
   useEffect(() => {
     if (Object.keys(markedIDS).length === 0) {
@@ -249,15 +283,34 @@ function PricesPage() {
       setAllMarked(false);
     } else {
       setMarkMode(true);
-      if (Object.keys(markedIDS).length === filteredPrices.length) {
+      if (Object.keys(markedIDS).length === paginatedPrices.length) {
         setAllMarked(true);
       } else {
         setAllMarked(false);
       }
     }
-  }, [markedIDS, filteredPrices]);
+  }, [markedIDS, paginatedPrices]);
   useEffect(() => {
     markAll(false);
+  }, [
+    searchInput,
+    data,
+    filteredPrices,
+    paginatedPrices,
+    firstSortSelectValue,
+    modelSelectValue,
+    activatedSelectValue,
+    categorySelectValue,
+    brandSelectValue,
+    availabilitySelectValue,
+    idSelectValue,
+    dateSelectValue,
+    actualPage,
+    pageCount,
+    itemsPerPage,
+  ]);
+  useEffect(() => {
+    setActualPage(1);
   }, [
     searchInput,
     data,
@@ -270,12 +323,14 @@ function PricesPage() {
     availabilitySelectValue,
     idSelectValue,
     dateSelectValue,
+    pageCount,
+    itemsPerPage,
   ]);
 
   const markAll = (mark) => {
     if (mark) {
       const temp = {};
-      filteredPrices.forEach((item) => {
+      paginatedPrices.forEach((item) => {
         temp[item.id] = { marked: mark };
       });
       setMarkedIDS(temp);
@@ -409,6 +464,16 @@ function PricesPage() {
   return (
     <div className="PricesContainer">
       <div className={`firstHalf ${mobileEditVisible ? "Hide" : ""}`}>
+        <MyModal modalVisible={modalVisible} setModalVisible={setModalVisible}>
+          <Synchronizator
+            close={() => {
+              setModalVisible(false);
+            }}
+            update={() => {
+              getAllPrices(setIsLoading, setData, setIsAuth);
+            }}
+          />
+        </MyModal>
         <div className="SearchInput">
           <LegendInput
             legend="Поиск"
@@ -419,9 +484,28 @@ function PricesPage() {
           />
         </div>
         <div className="horizontaltwo">
-          <div className="checkall">
-            <MyCheckBox checked={allMarked} setChecked={(v) => markAll(v)} />
-            <p>{allMarked ? "Убрать всё" : "Выбрать всё"}</p>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <div className="checkall">
+              <MyCheckBox checked={allMarked} setChecked={(v) => markAll(v)} />
+              <p>{allMarked ? "Убрать всё" : "Выбрать всё"}</p>
+            </div>
+            <div
+              className="checkall"
+              onClick={() => {
+                setModalVisible(!modalVisible);
+              }}
+            >
+              <AiOutlineSync
+                style={{ margintop: "2px", cursor: "pointer" }}
+                size={32}
+              />
+              <p>Синх. с Kaspi</p>
+            </div>
           </div>
           <div className="sortselect">
             <Select
@@ -438,18 +522,56 @@ function PricesPage() {
         <div className="ResultSum">
           <p>Всего результатов: {filteredPrices.length}</p>
           <p>Отмечено: {Object.keys(markedIDS).length}</p>
+          <p>
+            Страница: {actualPage} / {pageCount}
+          </p>
+        </div>
+        <div className="Pagination">
+          <BsFillCaretLeftSquareFill
+            size={25}
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              changePage(actualPage - 1);
+            }}
+          />
+          <div className="Pages">
+            {(() => {
+              const pages = [];
+              for (let i = 1; i <= pageCount; i++) {
+                pages.push(
+                  <p
+                    onClick={() => setActualPage(i)}
+                    className={`PageNumber ${i === actualPage ? "Chosen" : ""}`}
+                    key={i}
+                  >
+                    {i}
+                  </p>
+                );
+              }
+              return pages;
+            })().map((i) => {
+              return i;
+            })}
+          </div>
+          <BsFillCaretRightSquareFill
+            size={25}
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              changePage(actualPage + 1);
+            }}
+          />
         </div>
         <div className="PricesWrapper">
-          {filteredPrices.map((item, index) => {
+          {paginatedPrices.map((item, index) => {
             return (
               <Price
                 setMobileEditVisible={setMobileEditVisible}
                 checked={markedIDS[item.id]}
                 key={item.id}
                 update={() => {
-                  getAllPrices(setIsLoading, setData);
+                  getAllPrices(setIsLoading, setData, setIsAuth);
                 }}
-                index={index}
+                index={index + (actualPage - 1) * itemsPerPage}
                 data={item}
                 setChecked={handleMark}
                 setEditableId={setEditableId}
@@ -467,7 +589,7 @@ function PricesPage() {
                 )
               ) {
                 changePriceActivity(setIsChangeLoading, markedIDS, true, () => {
-                  getAllPrices(setIsLoading, setData);
+                  getAllPrices(setIsLoading, setData, setIsAuth);
                 });
               }
             }}
@@ -488,7 +610,7 @@ function PricesPage() {
                   markedIDS,
                   false,
                   () => {
-                    getAllPrices(setIsLoading, setData);
+                    getAllPrices(setIsLoading, setData, setIsAuth);
                   }
                 );
               }
@@ -506,7 +628,7 @@ function PricesPage() {
                 )
               ) {
                 deletePrice(setIsDeleteLoading, markedIDS, () => {
-                  getAllPrices(setIsLoading, setData);
+                  getAllPrices(setIsLoading, setData, setIsAuth);
                 });
               }
             }}
@@ -516,12 +638,12 @@ function PricesPage() {
           </MyButton>
         </div>
       </div>
-      <div className={`secondHalf ${mobileEditVisible ? "" : "Hide"}`}>
+      <div className={`secondHalf ${mobileEditVisible ? "Show" : "Hide"}`}>
         <EditPage
           setMobileEditVisible={setMobileEditVisible}
           editableId={editableId}
           update={() => {
-            getAllPrices(setIsLoading, setData);
+            getAllPrices(setIsLoading, setData, setIsAuth);
           }}
         />
       </div>

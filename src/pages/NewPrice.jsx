@@ -3,8 +3,10 @@ import MyInput from "../UI/MyInput";
 import MyCheckBox from "../UI/MyCheckBox";
 import MyButton from "../UI/MyButton";
 import { newPrice } from "../api/PriceService";
+import useAuth from "../hooks/useAuth";
 
 function NewPrice() {
+  const { setIsAuth } = useAuth();
   const [data, setData] = useState([
     {
       value: "",
@@ -128,7 +130,7 @@ function NewPrice() {
             text="Добавить"
             type="submit"
             onClick={() => {
-              newPrice(setIsLoading, data, availabilities);
+              newPrice(setIsLoading, data, availabilities, setIsAuth);
             }}
             isLoading={isLoading}
           />

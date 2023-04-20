@@ -1,7 +1,13 @@
 import axios from "axios";
 import { server_url } from "./AuthService";
+import { logout } from "./AuthService";
 
-export const newPrice = async (setIsLoading, data, availabilities) => {
+export const newPrice = async (
+  setIsLoading,
+  data,
+  availabilities,
+  setIsAuth
+) => {
   setIsLoading(true);
   const rData = {};
   data.forEach((item) => {
@@ -35,6 +41,9 @@ export const newPrice = async (setIsLoading, data, availabilities) => {
             ? err.response?.data?.message
             : err.message)
       );
+      if (err?.response?.data?.logout) {
+        logout(() => {}, setIsAuth);
+      }
     })
     .finally(() => setIsLoading(false));
 };
@@ -155,7 +164,7 @@ export const getOnePrice = async (
     .finally(() => setIsLoading(false));
 };
 
-export const getAllPrices = async (setIsLoading, setData) => {
+export const getAllPrices = async (setIsLoading, setData, setIsAuth) => {
   setIsLoading(true);
   const token = localStorage.getItem("token");
   await axios
@@ -181,16 +190,57 @@ export const getAllPrices = async (setIsLoading, setData) => {
             ? err.response?.data?.message
             : err.message)
       );
+      if (err?.response?.data?.logout) {
+        logout(() => {}, setIsAuth);
+      }
     })
     .finally(() => setIsLoading(false));
 };
 
+export const signIn = async (
+  username,
+  password,
+  setIsLoading,
+  setSignInError,
+  next
+) => {
+  const token = localStorage.getItem("token");
+  setIsLoading(true);
+  setSignInError("");
+  await axios
+    .post(
+      server_url + "/api/prices/signin",
+      {
+        username,
+        password,
+      },
+      {
+        headers: {
+          authorization: "Bearer " + token,
+        },
+      }
+    )
+    .then(({ data }) => {
+      next(data.newOffers, data.oldOffers, data.store_id);
+    })
+    .catch((err) => {
+      setSignInError(
+        "Ошибка: " +
+          (err.response?.data?.errors
+            ? err.response?.data?.errors.errors[0].msg
+            : err.response?.data?.message
+            ? err.response?.data?.message
+            : err.message)
+      );
+    })
+    .finally(() => setIsLoading(false));
+};
 export const deletePrice = async (setIsLoading, price_ids, update) => {
   const token = localStorage.getItem("token");
   setIsLoading(true);
   await axios
     .post(
-      server_url + "/api/prices//delete",
+      server_url + "/api/prices/delete",
       {
         price_ids,
       },
@@ -253,4 +303,36 @@ export const changePriceActivity = async (
       );
     })
     .finally(() => setIsLoading(false));
+};
+
+export const sync = (newOffers, setSyncError, setIsSyncLoading) => {
+  return new Promise(async (resolve) => {
+    const token = localStorage.getItem("token");
+    await axios
+      .post(
+        server_url + "/api/prices/sync",
+        {
+          newOffers,
+        },
+        {
+          headers: {
+            authorization: "Bearer " + token,
+          },
+        }
+      )
+      .then(({ data }) => {
+        resolve(data.message);
+      })
+      .catch((err) => {
+        setSyncError(
+          "Ошибка: " +
+            (err.response?.data?.errors
+              ? err.response?.data?.errors.errors[0].msg
+              : err.response?.data?.message
+              ? err.response?.data?.message
+              : err.message)
+        );
+        setIsSyncLoading(false);
+      });
+  });
 };

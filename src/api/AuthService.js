@@ -1,5 +1,6 @@
 import axios from "axios";
 export const server_url = "https://domper.kz:3636";
+// export const server_url = "http://192.168.0.13:9292";
 
 // ("scp -r ./build/* /var/www/domper.kz/html");
 
