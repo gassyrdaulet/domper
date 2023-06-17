@@ -166,7 +166,6 @@
 .secondHalf {
   display: none;
   margin-left: 10px;
-  border-left: 1px solid #72859a;
 }
 .ResultSum {
   width: 100%;
@@ -234,7 +233,6 @@
   margin-bottom: 10px;
   cursor: pointer;
   border-radius: 10px;
-  display: none;
 }
 .BackButton:hover {
   background-color: #e8e8e851;
@@ -356,19 +354,13 @@
     width: 80%;
   }
 }
+.Hide {
+  display: none;
+}
+.Show {
+  display: flex;
+}
 @media only screen and (max-width: 900px) {
-  .Hide {
-    display: none;
-  }
-  .Show {
-    display: flex;
-  }
-  .BackButton {
-    display: flex;
-  }
-  .secondHalf {
-    border-left: none;
-  }
   .SearchInput {
     padding-right: 0;
   }
