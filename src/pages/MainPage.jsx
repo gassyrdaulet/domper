@@ -10,8 +10,9 @@ import {
   BsGearWideConnected,
   BsBoxArrowLeft,
   BsList,
+  BsPower,
 } from "react-icons/bs";
-import { logout, getUserInfo } from "../api/AuthService";
+import { logout, getUserInfo, changeActivation } from "../api/AuthService";
 import useAuth from "../hooks/useAuth";
 import { useOutsideAlerter } from "../hooks/useOutsideAlerter";
 import Loading from "../UI/Loading";
@@ -37,6 +38,7 @@ const tabArr = [
 
 function MainPage() {
   const [isProfileLoading, setIsProfileLoading] = useState(true);
+  const [isActivatedLoading, setIsActivatedLoading] = useState(true);
   const [profileData, setProfileData] = useState({});
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
   const menuWrapper = useRef(null);
@@ -81,19 +83,37 @@ function MainPage() {
               <p>{profileData.username}</p>
               <p>{profileData.store_name}</p>
               <p>{profileData.store_id}</p>
-              <BsBoxArrowLeft
-                size={23}
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  if (
-                    window.confirm(
-                      "Вы действительно хотите выйти из своего аккаунта?"
-                    )
-                  ) {
-                    logout(setIsProfileLoading, setIsAuth);
-                  }
-                }}
-              />
+              <div style={{ flex: 1, flexDirection: "row" }}>
+                <BsBoxArrowLeft
+                  size={23}
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    if (
+                      window.confirm(
+                        "Вы действительно хотите выйти из своего аккаунта?"
+                      )
+                    ) {
+                      logout(setIsProfileLoading, setIsAuth);
+                    }
+                  }}
+                />
+                <BsPower
+                  size={23}
+                  color={profileData.activated ? "#1DE81C" : "red"}
+                  style={{ cursor: "pointer", marginLeft: 10 }}
+                  onClick={() => {
+                    if (
+                      window.confirm(
+                        "Вы действительно хотите выйти из своего аккаунта?"
+                      )
+                    ) {
+                      changeActivation(setIsActivatedLoading, () => {
+                        getUserInfo(setIsProfileLoading, setProfileData);
+                      });
+                    }
+                  }}
+                />
+              </div>
             </div>
           )}
           <TabList className="TabList">

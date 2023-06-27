@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MyButton from "../UI/MyButton";
 import LegendInput from "../UI/LegendInput";
 import cl from "./Synchronizator.module.css";
 import { signIn, sync } from "../api/PriceService";
+import { getKaspiCabinetCreds } from "../api/AuthService";
 import Loading from "../UI/Loading";
 
 function Synchronizator({ close, update }) {
@@ -16,37 +17,45 @@ function Synchronizator({ close, update }) {
   const [phase, setPhase] = useState(0);
   const [successText, setSuccessText] = useState("");
 
-  const next = async (newOffers, oldOffers, store_id) => {
+  useEffect(() => {
+    getKaspiCabinetCreds(setLogin, setPassword);
+  }, []);
+
+  const next = async (newOffers, oldOffers, store_id, withPrices) => {
     setIsSyncLoading(true);
     try {
       setTotalUploadedOffers(newOffers.length);
       let totalNewOffers = 0;
-      let deactivatedOffersBefore = 0;
       let activatedOffersAfter = 0;
       let totalOldOffers = oldOffers.length;
       setPhase(1);
-      oldOffers.forEach((offer) => {
-        if (offer.activated !== "no") {
-          offer.activated = "no";
-        } else {
-          deactivatedOffersBefore++;
-        }
-      });
+      for (let oldOffer of oldOffers) {
+        oldOffer.activated = "delete";
+      }
       for (let newOffer of newOffers) {
         let nothingFound = true;
         for (let oldOffer of oldOffers) {
           if (newOffer.masterProduct.sku === oldOffer.suk) {
-            oldOffer.activated = "yes";
+            if (newOffer.offerStatus === "ACTIVE") {
+              oldOffer.activated = "yes";
+              activatedOffersAfter++;
+            } else {
+              oldOffer.activated = "no";
+            }
+            if (withPrices) {
+              oldOffer.minprice = newOffer.priceMin;
+              oldOffer.actualprice = newOffer.priceMin;
+              oldOffer.maxprice = newOffer.priceMin + 100;
+            }
             nothingFound = false;
-            activatedOffersAfter++;
             break;
           }
         }
         if (nothingFound) {
-          const newCreateOffer = {};
+          const availabilities = {};
           for (let itr = 1; itr <= 5; itr++) {
             const key = "availability" + (itr === 1 ? "" : itr);
-            newCreateOffer[key] = JSON.stringify({
+            availabilities[key] = JSON.stringify({
               $: {
                 storeId: "PP" + itr,
                 available: itr === 1 || itr === 2 ? "yes" : "no",
@@ -54,9 +63,9 @@ function Synchronizator({ close, update }) {
             });
           }
           oldOffers.push({
-            ...newCreateOffer,
+            ...availabilities,
             id: "new",
-            activated: "yes",
+            activated: newOffer.offerStatus === "ACTIVE" ? "yes" : "no",
             suk: newOffer.masterProduct.sku,
             suk2: newOffer.masterProduct.sku + `_${store_id}`,
             model: newOffer.name,
@@ -70,10 +79,14 @@ function Synchronizator({ close, update }) {
         }
       }
       await sync(oldOffers, setSyncError, setIsSyncLoading);
+      let deletedCount = 0;
+      for (let offer of oldOffers) {
+        if (offer.activated === "delete") {
+          deletedCount++;
+        }
+      }
       setSuccessText(
-        `Синхронизация прошла успешно!\nБыло товаров: ${totalOldOffers}шт.\nНовых товаров: ${totalNewOffers}шт.\nДеактивировано: ${
-          totalOldOffers - activatedOffersAfter - deactivatedOffersBefore
-        }шт.`
+        `Синхронизация прошла успешно!\nБыло товаров: ${totalOldOffers}шт.\nНовых товаров: ${totalNewOffers}шт.\nУдалено: ${deletedCount}шт.\n`
       );
       setIsSyncLoading(false);
     } catch (e) {
@@ -103,9 +116,36 @@ function Synchronizator({ close, update }) {
         />
         <MyButton
           onClick={() => {
-            signIn(login, password, setIsSignInLoading, setSignInError, next);
+            if (
+              window.confirm(
+                "Вы уверены? Все сохраненные цены в Domper удалятся."
+              )
+            ) {
+              signIn(
+                login,
+                password,
+                setIsSignInLoading,
+                setSignInError,
+                next,
+                true
+              );
+            }
           }}
-          text="Синхронизировать"
+          text="Синхронизировать с ценами"
+          isLoading={isSignInLoading}
+        />
+        <MyButton
+          onClick={() => {
+            signIn(
+              login,
+              password,
+              setIsSignInLoading,
+              setSignInError,
+              next,
+              false
+            );
+          }}
+          text="Синхронизировать без цен"
           isLoading={isSignInLoading}
         />
         <MyButton onClick={close} text="Закрыть" />

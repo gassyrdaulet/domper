@@ -10,6 +10,10 @@ function SettingsPage() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
+  const [kaspimerlogin, setkaspimerlogin] = useState("");
+  const [kaspimerpassword, setKaspimerpassword] = useState("");
+  const [mockseller, setMockseller] = useState("");
+  const [storeId, setStoreId] = useState("");
   const [damp, setDamp] = useState("");
   const [city, setCity] = useState("");
   const [cityName, setCityName] = useState("");
@@ -49,12 +53,45 @@ function SettingsPage() {
       setState: setDamp,
     },
     {
-      inputMode: "еуче",
+      inputMode: "text",
       title: "Название магазина:",
       type: "text",
       key: "store_name",
       state: storeName,
       setState: setStoreName,
+    },
+    {
+      inputMode: "text",
+      title: "ID магазина:",
+      type: "text",
+      key: "store_id",
+      state: storeId,
+      setState: setStoreId,
+    },
+    {
+      inputMode: "text",
+      title: "Логин кабинета продавца:",
+      type: "text",
+      key: "kaspimerlogin",
+      state: kaspimerlogin,
+      setState: setkaspimerlogin,
+    },
+    {
+      inputMode: "text",
+      title:
+        "Пароль кабинета продавца (оставьте пустым если не хотите менять):",
+      type: "password",
+      key: "kaspimerpassword",
+      state: kaspimerpassword,
+      setState: setKaspimerpassword,
+    },
+    {
+      inputMode: "text",
+      title: "Мокинг партнера (Введите его ID):",
+      type: "text",
+      key: "mockseller",
+      state: mockseller,
+      setState: setMockseller,
     },
   ];
   const [isLoading, setIsLoading] = useState(false);

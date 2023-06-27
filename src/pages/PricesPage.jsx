@@ -42,16 +42,16 @@ function PricesPage() {
   const { setIsAuth } = useAuth();
 
   const [firstSortSelectValue, setFirstSortSelectValue] = useState({
-    value: "brand",
-    label: "По бренду",
+    value: "activated",
+    label: "По активности",
   });
   const [modelSelectValue, setModelSortSelectValue] = useState({
     value: 1,
     label: "По возраст.",
   });
   const [activatedSelectValue, setActivatedSortSelectValue] = useState({
-    value: "all",
-    label: "Все",
+    value: "yes",
+    label: "Активные",
   });
   const [categorySelectValue, setCategorySortSelectValue] = useState({
     value: "all",
@@ -509,7 +509,7 @@ function PricesPage() {
           </div>
           <div className="sortselect">
             <Select
-              defaultValue={firstSortSelectValue}
+              defaultValue={{ value: "activated", label: "По активности" }}
               options={options}
               isSearchable={false}
               placeholder="Выберите..."

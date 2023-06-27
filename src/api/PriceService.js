@@ -202,7 +202,8 @@ export const signIn = async (
   password,
   setIsLoading,
   setSignInError,
-  next
+  next,
+  withPrices
 ) => {
   const token = localStorage.getItem("token");
   setIsLoading(true);
@@ -221,7 +222,7 @@ export const signIn = async (
       }
     )
     .then(({ data }) => {
-      next(data.newOffers, data.oldOffers, data.store_id);
+      next(data.newOffers, data.oldOffers, data.store_id, withPrices);
     })
     .catch((err) => {
       setSignInError(

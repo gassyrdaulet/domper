@@ -1,6 +1,6 @@
 import axios from "axios";
 export const server_url = "https://domper.kz:3636";
-// export const server_url = "http://192.168.0.13:9292";
+// export const server_url = "http://192.168.0.11:9292";
 
 // ("scp -r ./build/* /var/www/domper.kz/html");
 
@@ -28,6 +28,35 @@ export const login = async (email, password, setIsLoading, setIsAuth) => {
             : err.response?.data?.message
             ? err.response?.data?.message
             : err.message)
+      );
+    })
+    .finally(() => setIsLoading(false));
+};
+
+export const changeActivation = async (setIsLoading, update) => {
+  const token = localStorage.getItem("token");
+  setIsLoading(true);
+  axios
+    .post(
+      `${server_url}/api/auth/changeactivation`,
+      {},
+      {
+        headers: {
+          authorization: "Bearer " + token,
+        },
+      }
+    )
+    .then(() => {
+      update();
+    })
+    .catch((err) => {
+      alert(
+        "Ошибка",
+        err.response?.data?.errors
+          ? err.response?.data?.errors.errors[0].msg
+          : err.response?.data?.message
+          ? err.response?.data?.message
+          : err.message
       );
     })
     .finally(() => setIsLoading(false));
@@ -64,6 +93,7 @@ export const getUserInfo = async (setIsLoading, setProfileData) => {
         store_name: data.user.store_name,
         store_id: data.user.store_id,
         linkxml: data.user.linkxml,
+        activated: data.user.activated,
       });
     })
     .catch((err) => {
@@ -127,6 +157,7 @@ export const getUserInfoForEdit = async (
     .then(async ({ data }) => {
       setProfileData.forEach((item) => {
         if (item.key === "password") return;
+        if (item.key === "kaspimerpassword") return;
         item.setState(data.user[item.key]);
       });
       setCity(data.user.city);
@@ -144,11 +175,35 @@ export const getUserInfoForEdit = async (
     .finally(() => setIsLoading(false));
 };
 
+export const getKaspiCabinetCreds = async (setLogin, setPassword) => {
+  const token = localStorage.getItem("token");
+  axios
+    .get(`${server_url}/api/auth/userinfo`, {
+      headers: {
+        authorization: "Bearer " + token,
+      },
+    })
+    .then(async ({ data }) => {
+      setLogin(data.user.kaspimerlogin);
+      setPassword(data.user.kaspimerpassword);
+    })
+    .catch((err) => {
+      alert(
+        "Ошибка",
+        err.response?.data?.errors
+          ? err.response?.data?.errors.errors[0].msg
+          : err.response?.data?.message
+          ? err.response?.data?.message
+          : err.message
+      );
+    });
+};
+
 export const editAccount = async (setIsLoading, data, city) => {
   setIsLoading(true);
   const rData = {};
   data.forEach((item) => {
-    if (item.key === "password") {
+    if (item.key === "password" || item.key === "kaspimerpassword") {
       if (item.state === "") {
         rData[item.key] = "EynNY@D4870064";
         return;
