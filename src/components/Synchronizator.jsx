@@ -26,7 +26,6 @@ function Synchronizator({ close, update }) {
     try {
       setTotalUploadedOffers(newOffers.length);
       let totalNewOffers = 0;
-      let activatedOffersAfter = 0;
       let totalOldOffers = oldOffers.length;
       setPhase(1);
       for (let oldOffer of oldOffers) {
@@ -38,7 +37,6 @@ function Synchronizator({ close, update }) {
           if (newOffer.masterProduct.sku === oldOffer.suk) {
             if (newOffer.offerStatus === "ACTIVE") {
               oldOffer.activated = "yes";
-              activatedOffersAfter++;
             } else {
               oldOffer.activated = "no";
             }

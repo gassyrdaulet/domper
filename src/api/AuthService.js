@@ -33,9 +33,8 @@ export const login = async (email, password, setIsLoading, setIsAuth) => {
     .finally(() => setIsLoading(false));
 };
 
-export const changeActivation = async (setIsLoading, update) => {
+export const changeActivation = async (update) => {
   const token = localStorage.getItem("token");
-  setIsLoading(true);
   axios
     .post(
       `${server_url}/api/auth/changeactivation`,
@@ -58,8 +57,7 @@ export const changeActivation = async (setIsLoading, update) => {
           ? err.response?.data?.message
           : err.message
       );
-    })
-    .finally(() => setIsLoading(false));
+    });
 };
 
 export const logout = (setIsLoading, setIsAuth) => {

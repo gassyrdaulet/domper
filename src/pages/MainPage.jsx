@@ -90,7 +90,7 @@ function MainPage() {
                   onClick={() => {
                     if (
                       window.confirm(
-                        "Подтвердите действие (Активация / Деактивация аккаунта)."
+                        "Вы действительно хотите выйти из аккаунта?"
                       )
                     ) {
                       logout(setIsProfileLoading, setIsAuth);
@@ -104,10 +104,10 @@ function MainPage() {
                   onClick={() => {
                     if (
                       window.confirm(
-                        "Вы действительно хотите выйти из своего аккаунта?"
+                        "Подтвердите действие (Активация / Деактивация аккаунта)."
                       )
                     ) {
-                      changeActivation(setIsActivatedLoading, () => {
+                      changeActivation(() => {
                         getUserInfo(setIsProfileLoading, setProfileData);
                       });
                     }
