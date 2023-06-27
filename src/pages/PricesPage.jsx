@@ -18,6 +18,7 @@ import EditPage from "./EditPage";
 import {
   BsFillCaretLeftSquareFill,
   BsFillCaretRightSquareFill,
+  BsFillCloudArrowDownFill,
 } from "react-icons/bs";
 import { AiOutlineSync } from "react-icons/ai";
 import MyModal from "../components/MyModal";
@@ -82,6 +83,15 @@ function PricesPage() {
     { value: "availability", label: "По складам" },
     { value: "id", label: "По ID" },
     { value: "date", label: "Дата обновления" },
+  ];
+  const itemsPerPageOptions = [
+    { value: 3, label: "3 шт." },
+    { value: 6, label: "6 шт." },
+    { value: 9, label: "9 шт." },
+    { value: 10, label: "10 шт." },
+    { value: 12, label: "12 шт." },
+    { value: 15, label: "15 шт." },
+    { value: 20, label: "20 шт." },
   ];
   const availabilityOptions = [
     { value: "all", label: "Все" },
@@ -490,21 +500,29 @@ function PricesPage() {
               flexDirection: "row",
             }}
           >
-            <div className="checkall">
-              <MyCheckBox checked={allMarked} setChecked={(v) => markAll(v)} />
-              <p>{allMarked ? "Убрать всё" : "Выбрать всё"}</p>
-            </div>
             <div
               className="checkall"
               onClick={() => {
                 setModalVisible(!modalVisible);
               }}
             >
-              <AiOutlineSync
+              <BsFillCloudArrowDownFill
                 style={{ margintop: "2px", cursor: "pointer" }}
                 size={32}
               />
               <p>Синх. с Kaspi</p>
+            </div>
+            <div
+              className="checkall"
+              onClick={() => {
+                getAllPrices(setIsLoading, setData, setIsAuth);
+              }}
+            >
+              <AiOutlineSync
+                style={{ margintop: "2px", cursor: "pointer" }}
+                size={32}
+              />
+              <p>Обновить список</p>
             </div>
           </div>
           <div className="sortselect">
@@ -520,6 +538,31 @@ function PricesPage() {
           </div>
         </div>
         <div className="ResultSum">
+          <div
+            style={{
+              width: "100%",
+              alignItems: "center",
+              justifyContent: "space-between",
+              display: "flex",
+              marginTop: 11,
+              marginBottom: 14,
+            }}
+          >
+            <div className="checkall">
+              <MyCheckBox checked={allMarked} setChecked={(v) => markAll(v)} />
+              <p>{allMarked ? "Убрать всё" : "Выбрать всё"}</p>
+            </div>
+            <Select
+              defaultValue={{ value: 12, label: "12 шт." }}
+              options={itemsPerPageOptions}
+              isSearchable={false}
+              placeholder="Выберите..."
+              styles={selectStyle}
+              onChange={({ value }) => {
+                setItemsPerPage(value);
+              }}
+            />
+          </div>
           <p>Всего результатов: {filteredPrices.length}</p>
           <p>Отмечено: {Object.keys(markedIDS).length}</p>
           <p>

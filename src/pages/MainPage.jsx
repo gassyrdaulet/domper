@@ -38,7 +38,6 @@ const tabArr = [
 
 function MainPage() {
   const [isProfileLoading, setIsProfileLoading] = useState(true);
-  const [isActivatedLoading, setIsActivatedLoading] = useState(true);
   const [profileData, setProfileData] = useState({});
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
   const menuWrapper = useRef(null);

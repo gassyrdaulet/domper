@@ -179,7 +179,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 13px;
 }
 .checkall {
   display: flex;
