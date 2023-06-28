@@ -44,7 +44,7 @@ function Synchronizator({ close, update }) {
               oldOffer.minprice = newOffer.priceMin;
               oldOffer.actualprice = newOffer.priceMin;
               oldOffer.maxprice = newOffer.priceMin + 100;
-              oldOffer.suk2 = "99" + newOffer.sku;
+              oldOffer.suk2 = newOffer.sku;
             }
             nothingFound = false;
             break;
