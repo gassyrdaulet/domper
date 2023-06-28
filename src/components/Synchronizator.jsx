@@ -65,7 +65,7 @@ function Synchronizator({ close, update }) {
             id: "new",
             activated: newOffer.offerStatus === "ACTIVE" ? "yes" : "no",
             suk: newOffer.masterProduct.sku,
-            suk2: newOffer.masterProduct.sku + `_${store_id}`,
+            suk2: newOffer.sku,
             model: newOffer.name,
             brand: newOffer.brand ? newOffer.brand : "Бренд",
             category: "Категория",
