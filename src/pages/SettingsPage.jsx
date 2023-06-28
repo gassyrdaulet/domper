@@ -10,6 +10,7 @@ function SettingsPage() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
+  const [type, setType] = useState("");
   const [kaspimerlogin, setkaspimerlogin] = useState("");
   const [kaspimerpassword, setKaspimerpassword] = useState("");
   const [mockseller, setMockseller] = useState("");
@@ -67,6 +68,14 @@ function SettingsPage() {
       key: "store_id",
       state: storeId,
       setState: setStoreId,
+    },
+    {
+      inputMode: "text",
+      title: "Способ загрузки:",
+      type: "text",
+      key: "type",
+      state: type,
+      setState: setType,
     },
     {
       inputMode: "text",
