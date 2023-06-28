@@ -40,11 +40,11 @@ function Synchronizator({ close, update }) {
             } else {
               oldOffer.activated = "no";
             }
+            oldOffer.suk2 = newOffer.sku;
             if (withPrices) {
               oldOffer.minprice = newOffer.priceMin;
               oldOffer.actualprice = newOffer.priceMin;
               oldOffer.maxprice = newOffer.priceMin + 100;
-              oldOffer.suk2 = newOffer.sku;
             }
             nothingFound = false;
             break;
